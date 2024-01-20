@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/style.css">
+    <!--link para icon boot-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../js/portfólio.js" defer></script>
+    <title>portfólio</title>
+</head>
+<body>
+    <header>
+      <div class="menu">
+         <h2>Portfólio</h2>
+        <nav class="menu-conteiner"> 
+            <a href="#" class="menu-iten">Sobre</a>
+            <a href="#segsetion" class="menu-iten">Especialidades</a>
+            <a href=""class="menu-iten">Projectos</a>
+            <button  id="btn"><a href="#lastsetion">Contactar</a></button>
+            
+        </nav>
+      </div>  
+    </header>
+  <main>
+<div class="body">
+  <div class="img-conteiner">
+    <img src="../imgs/img-recort.jpg" alt="foto do desenvolvedor">
+  </div>
+  <div class="sections">
+    <section class="firstsections">
+    <h2>Bartolomeu Nhongo Sebastião</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa enim tempora magni minima repellat incidunt quia, impedit molestiae, beatae quod adipisci officia? Autem cumque distinctio necessitatibus fugiat, dolorem ullam.</p>
+    <button  id="btn">Contactar</button>
+    </section>
+    <section class="segsetion"  id="segsetion">
+      <h2>Especialidades</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, laudantium ipsum accusamus architecto sapiente itaque doloremque ullam cumque error explicabo molestias labore deleniti tenetur debitis. Perferendis quidem quasi fugiat consectetur.</p>
+      <div id="espe-img">
+        <div id="skill">
+        <img src="../imgs/responsive-web-design-html-computer-icons-css3-world-wide-web-consortium-css-45b8b1260f89f8780f152f9c1e84e1f9.png" alt="logo html5" id="especi-img">
+        <h3>HTML5</h3>
+        </div>
+        <div id="skill">
+       <img src="../imgs/cascading-style-sheets-css3-javascript-logo-world-wide-web-1036071b7dcbba8be599d697b6b4439a.png" alt="logo css3" id="especi-img">
+       <h3>CSS3</h3>
+      </div>
+       <div id="skill">
+          <img src="../imgs/v22nqj831boqj3o6239jst7s8c.png" alt="logo javascript" id="js">
+          <h3>JS</h3>
+       </div>
+      
+      </div>
+    </section>
+    
+    <section id="lastsetion">
+      <h2>Contactar</h2>
+      <div class="contacto-conteiner">
+        <div class="redes-social">
+          <a href="tel:+244937812687"><i class="bi bi-telephone-fill">&nbsp;&nbsp;&nbsp;Telefone</i></a>
+         <a href="mailto:bartolomeunhongo@mail.com"><i class="bi bi-envelope-at">&nbsp;&nbsp;&nbsp;Enviar E-mail</i></a>
+        <a href="https://github.com/Bartolomeu18"><i class="bi bi-github">&nbsp;&nbsp;&nbsp;GitHub</i></a>
+        <a href="https://www.instagram.com/bartomeu.sebastiao"> <i class="bi bi-instagram">&nbsp;&nbsp;&nbsp;Instagram</i></a>
+        </div>
+        <div class="email">
+          <form action="enviar" method="https://formsubmit.co/bartolomeunhongo@email.com"></form>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Digiteo seu nome" onclick="clickar"> 
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Digite o seu e-mail">
+          <div class="form-group">
+            <textarea placeholder="Mensagem" class="inputmail" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" id="btns">Enviar</button>
+        </div>
+      </div>
+     
+    </section>
+  </div>
+</div>
+  </main>
+</body>
+</html>
